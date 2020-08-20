@@ -1,0 +1,149 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/*      Sticky Menu Code Srat*/
+     .isStuck{
+    left:0px;
+    right:0;
+    width:100%;
+    background:#08c;
+   }
+ /* CUSTOMIZE THE NAVBAR
+   ------------------------------------------------ */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      margin-top:0px;
+      position: relative;
+      z-index: 55;    
+
+     }
+     .header-section {
+	padding: 1rem 0;
+    }
+    .banner-inner .btn-info {
+	padding: .4rem 1.2rem;
+	margin-bottom: 4rem;
+    }
+    .header-section h5 {
+	font-size: 1.1rem;
+    }
+    .banner-inner h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 700;
+	margin: 3rem 0 0 0;
+   }
+    .simple-design .design h2 {
+	font-size: 1.5rem;
+    }
+    .simple-design .design p {
+	padding: 0 2.5rem;
+    }
+    .portfolio h2 {
+	font-size: 1.3rem;
+    }
+    .portfolio h5 {
+	font-size: 1rem;
+    }
+    .portfolio .mar-bottom{
+        margin-bottom:1.2rem;
+    }
+    .portfolio .mar-top {
+    margin-top: 0rem;
+    }
+    .footer-section .social-incons ul {
+	float: none;
+    }
+    .footer-section{
+        text-align: center;
+    }
+    .footer-section .social-incons {
+	margin-top: 1.5rem;
+   }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .banner-inner h1 {
+	font-size: 4rem;
+	margin: 6rem 0 0 0;
+    }
+    .banner-inner .btn-info {
+	padding: .6rem 1.5rem;
+	margin-bottom: 7rem;
+   }
+    .portfolio h2 {
+	font-size: 1.7rem;
+    }
+    .portfolio .mar-bottom {
+	margin-bottom: 2rem;
+    }
+    .portfolio .mar-top {
+    margin-top: 0rem;
+    }
+      .footer-section .social-incons ul {
+	float: none;
+    }
+    .footer-section{
+        text-align: center;
+    }
+    .footer-section .social-incons {
+	margin-top: 1.5rem;
+   }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .simple-design .design p {
+	padding: 0 9rem;
+    }
+    .portfolio-section .icon h4 {
+	font-size: 1.0rem;
+    }
+  
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /*      Sticky Menu Code Srat*/
+     .isStuck{
+    left:0px;
+    right:0;
+    width:100%;
+    background:#08c;
+   }
+ /* CUSTOMIZE THE NAVBAR
+   ------------------------------------------------ */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      margin-top:0px;
+      position: relative;
+      z-index: 55;    
+
+     }
+  
+}

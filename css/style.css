@@ -1,0 +1,321 @@
+/**************************************
+    Global variable strat
+***************************************/
+*{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:16px ;
+    line-height: ;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Lato', sans-serif;
+    font-weight: ;
+    line-height: ;
+}
+
+
+/*************************************
+    Global variable end
+***************************************/
+
+
+/**************************************
+    header-section strat
+***************************************/
+.header-section{
+    width:100%;
+    padding:2rem 0;
+    background:#f6f9f9;
+}
+.logo{
+    width:100%;
+}
+
+/**************************************
+    header-section End
+***************************************/
+.banner-section{
+    background:url(../images/image.png)center top no-repeat;
+    background-size:cover;
+    text-align:center;
+}
+.banner-inner h1{
+    color:#fff;
+    font-size:5rem;
+    font-weight:700;
+    margin:9rem 0 0 0;
+}
+.banner-inner .divider{
+    width:60%;
+    padding:.2rem;
+    background:#15a4fa;
+    margin: 1.5rem auto 0;
+}
+.banner-inner h5{
+    color:#fff;
+    padding:2rem;
+}
+.banner-inner .btn-info {
+    color: #fff;
+    background-color: transparent;
+    border-color: #15a4fa;
+    padding: .6rem 2.5rem;
+    transition: 1s;
+    margin-bottom:9rem
+}
+.banner-inner .btn-info:hover{
+    background:#15a4fa;;
+    transition:1s
+}
+.banner-inner img{
+    margin-bottom: 7rem;
+}
+
+/**************************************
+    containt-section strat
+***************************************/
+
+
+/**************************
+simple design start
+*************************/
+.simple-design{
+    width:100%;
+    background:#f6f9f9;
+    padding: 3rem 0 4rem 0;
+    text-align:center;
+}
+.simple-design .design h2 {
+    color: #2d3950;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight:600;
+}
+.simple-design .design p {
+    color: #acacac;
+    padding: 0 6rem;
+}
+
+
+/**************************
+simple design end
+*************************/
+
+/***************************
+Portfolio section start
+******************************/
+.portfolio-section{
+    width:100%;
+    padding:3rem 4rem;
+    text-align:center;
+}
+.portfolio-section .icon a img{
+    padding:1rem
+}
+.portfolio-section .icon h4{
+     color: #2d3950;
+    font-size:1.2rem;
+    padding:1rem 0;
+    font-weight:600;
+}
+.portfolio-section .icon p{
+    color: #acacac;
+    margin-bottom: 1rem
+}
+
+/***************************
+Portfolio section End
+******************************/
+
+/***************************
+Portfolio Part Start
+******************************/
+.portfolio{
+    background:#f6f9f9;
+    padding:3rem 0 7rem 0;
+    text-align: center;
+}
+.portfolio h2 {
+     color: #2d3950;
+    padding: 1rem 0 .4rem 0px;
+    font-size: 2.5rem;
+    font-weight:600;
+}
+.portfolio h5{
+    color: #2d3950;
+    font-size:1.2rem;
+    margin-bottom:4rem;
+    font-weight:600;
+}
+.portfolio .mar-top{
+    margin-top:2rem;
+}
+.portfolio .image1{
+    width:100%;
+    height: 100%;
+    position: relative;
+    transition:1s;
+}
+.portfolio .image1:hover .hover-div {
+    display: block;
+    transition:1s
+}
+.hover-div{
+    height:100%;
+    width:100%;
+    background: rgba(40, 165, 242, 0.6);
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.social-div .fa-search-plus {
+    font-weight: 900;
+    padding: .5rem;
+    border: .1px solid #fff;
+    color:#fff;
+    border-radius: 0.2rem;
+    transition:1s;
+    margin-right: .3rem;
+}
+.social-div .fa-search-plus:hover{
+    background:#15a4fa;
+    transition:1s
+}
+.social-div .fa-linkedin-in{
+    font-weight: 900;
+    padding: .5rem;
+    border: .1px solid #fff;
+    border-radius: 0.2rem;
+    color:#fff;
+    transition:1s;
+}
+.social-div .fa-linkedin-in:hover{
+    background:#15a4fa;
+    transition:1s
+}
+.social-div {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+.image1 img{
+    width:100%;
+}
+
+/***************************
+Portfolio Part End
+******************************/
+
+/***************************
+contact-section code start
+******************************/
+.contact-section{
+    width:100%;
+    padding:2rem 0;
+    background:url(../images/BG.png) center top no-repeat;
+    background-size:cover;
+}
+.contact-section h2{
+     color: #fff;
+    padding: 1rem 0 .4rem 0px;
+    font-size: 2.5rem;
+    font-weight:600;
+    text-align: center;
+}
+.contact-section h5 {
+    color: #999999;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+.main-form{ 
+    width:100%;
+}
+.main-form input{
+    background:transparent;
+    border: .1rem solid #999999;
+    color:#6c757d;
+}
+.main-form textarea{
+    background:transparent;
+    border: .1rem solid #999999;
+    color:#6c757d;
+
+}
+.main-form  span{
+    color:#fff;
+    font-size:.7rem;
+    margin-left:.4rem;
+}
+.main-form .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #15a4fa;
+    float: right;
+    padding: .4rem 2.5rem;
+    transition:1s;
+}
+.main-form .btn-primary:hover{
+    background:#15a4fa;
+    transition:1s;
+}
+/***************************
+      contact-section End
+******************************/
+
+/***************************
+       footer Part Start
+******************************/
+.footer-section{
+    width:100%;
+    padding:2rem 0;
+}
+.footer-section p{
+    color: #999999;
+    margin-bottom:0; 
+}
+.footer-section .social-incons ul{
+    display:block;
+    margin:0;
+    float:right;
+}
+.footer-section .social-incons ul li{
+    display:inline-block;  
+}
+.footer-section .social-incons ul li a{
+    padding:.6rem;
+    background:#15a4fa;
+    color:#FFF;
+    border-radius:.2rem;
+    border:.1rem solid #15a4fa;
+}
+
+/***************************
+       footer Part End
+******************************/
+
+/*      Sticky Menu Code Srat*/
+     .isStuck{
+    left:0px;
+    right:0px;
+    width:100%;
+    background:#08c;
+   }
+ /* CUSTOMIZE THE NAVBAR
+   ------------------------------------------------ */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      margin-top:0px;
+      position: relative;
+      z-index: 55;    
+
+     }
